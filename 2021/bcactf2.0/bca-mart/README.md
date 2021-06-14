@@ -37,7 +37,7 @@ My analysis on the source code.
 
 **Max length of int (4bytes) is -2,147,483,648 to 2,147,483,647.**
 
-So if we send the amount as 2147483647, cost variable will overflow to negative since cost *= amount and cost is an int. Then cost will become negative and will be less than the money value. As we are returning the amount value in amount 2147483647 will still be positive. So purchase returns greater than zero success.
+So if we send the amount as 2147483647, cost variable will overflow to negative since cost *= amount and cost is an int. Then cost will become negative and will be less than the money value. As we are returning the amount value in 2147483647 will still be positive. So purchase returns greater than zero success.
 
 ```
 $ nc bin.bcactf.com 49153
