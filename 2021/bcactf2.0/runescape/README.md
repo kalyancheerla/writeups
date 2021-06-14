@@ -1,10 +1,14 @@
-# Challenge name - 􃗁􌲔􇺟􊸉􁫞􄺷􄧻􃄏􊸉 (runescape)
+# 􃗁􌲔􇺟􊸉􁫞􄺷􄧻􃄏􊸉 (runescape)
+**Category:** crypto
 
 **Clue 1 :- Try finding the possible location of the flag in the given document.**
 
 **Clue 2 :- Try replacing the possible chars. (%s/􆞎/b/g)**
 
-## Solution :-
+## Description :
+Here's some enciphered text. Find the flag.
+
+## Solution :
 Replace the possible chars like.
 
 􆞎􄺷􄧻􄺷􇽛􌶴{...} --> bcactf{...}
@@ -19,4 +23,6 @@ Finally, we can get the flag.
 􆞎􄺷􄧻􄺷􇽛􌶴{􁫞􆖓􃗁􃗁􉯓_􏕈􊸉_􃗁􄧻􇺟_􆖓􌲔􇽛_􆖓􌶴_􃗁􌲔􇺟􊸉􁫞_􁫞􀴠􃗁􉂫􏕈􆞎􋄚} ---> bcactf{sorry_we_ran_out_of_runes_sjrhwbg}
 
 Note:- Notice that the final document doesn't have any captial letters and numbers & special chars stayed same.
-### Flag :- bcactf{sorry_we_ran_out_of_runes_sjrhwbg}
+
+# Flag :
+bcactf{sorry_we_ran_out_of_runes_sjrhwbg}
