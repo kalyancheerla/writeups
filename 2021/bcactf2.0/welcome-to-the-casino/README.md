@@ -7,7 +7,7 @@ Can you get three-of-a-kind on this slot machine? Let's find out!
 ## Solution :
 This is a challenge where you have to connect to a given host & port with netcat for a tcp connection. And provide the requested letter to start the spinning.
 
-I created a small python script to connect automatically and provide input. Please find it below.
+I created a small python script to connect automatically and provide the required input. Please find it below.
 ```
 $ cat connect.py
 import socket
@@ -40,8 +40,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 firstkey = freply[result + len(findstr)]
                 #print(f'{firstkey}')
                 s.send(bytes(firstkey, 'utf-8'))
-
-            #s.send(bytes('\n', 'utf-8'))
 
         except KeyboardInterrupt:
             print("bye")
@@ -128,7 +126,7 @@ Come back next time!
 recvd [44]:
 ```
 
-Note: added the output file 394.txt where flag is present.
+Note: added the [output file](./394.txt) where flag is present.
 
 # Flag :
 bcactf{y0u_g0t_1ucKy_af23dd97g64n}
