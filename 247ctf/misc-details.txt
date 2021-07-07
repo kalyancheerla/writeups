@@ -1,0 +1,13 @@
+# 1 - The text editor jail
+vim in a browser
+:shell provides access
+
+# 2 - An impossible number
+int max number
+2147483647
+
+# 3 - The flag lottery
+as seed input at the exact second is same
+random generates the same input.
+echo "1" | nc ip port;nc ip port
+
