@@ -11,3 +11,13 @@ as seed input at the exact second is same
 random generates the same input.
 echo "1" | nc ip port;nc ip port
 
+# 4 - Error reporting protocol
+bunch of ICMP packets
+can be seen exchanging picture
+extracted it using tshark (data bytes of a ICMP packet)
+tshark -r <input_pcap_file> -x | vi -
+vim global (g) magic
+:g/0000/d # delete lines
+:g/0020/exe "normal! 0w10dw" # to get exact offset
+# delete unnecessary lines
+xxd -r -p hexdump > outbin
