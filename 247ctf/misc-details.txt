@@ -29,3 +29,7 @@ wireshark -> Edit -> preferences -> protocols -> \
 tls -> ~/.config/wireshark/ssl_keys -> vim add all the keys in below format
 "Server IP","PORT","expected protocol (HTTP)","keyfile with full path","<any passwd (empty)>"
 reload wireshark, decode application data (tlsv1.2) frame, then http frames will be visible.
+
+# 6 - Hidden Painting
+Bunch of x & y co-ordinates in given file, just plot them.
+xyplot.py
