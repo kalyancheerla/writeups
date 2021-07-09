@@ -33,3 +33,9 @@ reload wireshark, decode application data (tlsv1.2) frame, then http frames will
 # 6 - Hidden Painting
 Bunch of x & y co-ordinates in given file, just plot them.
 xyplot.py
+
+# 7 - The encrypted flag
+file info gave us "openssl enc'd data with salted password"
+so lets try bruteforce-salted-openssl with rockyou list.
+bruteforce-salted-openssl -f ~/docs/rockyou.txt -d sha256 encrypted_flag.enc #passwd list and digest
+openssl aes-256-cbc -d -in encrypted_flag.enc -out decrypted.txt -k "passwd obtained"
