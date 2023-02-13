@@ -7,4 +7,4 @@ My CTF Writeups...
 #### [HSCTF 8](2021/hsctf_8/)
 #### [Dice CTF 2023](2023/dicectf/)
 <br/><br/><br/>
-\*\* find my team [kite](https://ctftime.org/team/80951) on [ctftime.org](https://ctftime.org) for rankings and other stuff.
+\*\* find myself [kite](https://ctftime.org/user/95683) on [ctftime.org](https://ctftime.org) for rankings and other stuff.
