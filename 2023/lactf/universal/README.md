@@ -5,7 +5,7 @@
 **Solution:**\
 I used online tools for decompiling the java class file and saved it in the FlagChecker.java
 
-For the code we can deduce that, flag is 38 chars length and
+From the code we can deduce that, flag is 38 chars length and
 each char byte is used in some binary operations.
 
 Also, we can assume that the flag starts with 'lactf{' and ends with '}' and
