@@ -19,7 +19,7 @@ Wireshark filter: http.request.method == "POST" || http.request.method == "GET"
 ```
 POST requests were simply chrome verifying cert signature using OCSP. Also, I found .goog is a domain level TLD dedicated for Google.
 
-GET requests is where the fake flags started apprearing and many had CTF in them. So, I immediately searched for strings containing CTF in them using Wireshark search (CTRL+F). Tweaked the options to `Packet bytes`, `String` and Non case-sensitive and found few hits. After looking through them I found 3 CTF flags where are as below,
+GET requests is where the fake flags started apprearing and many had CTF in them. So, I immediately searched for strings containing CTF in them using Wireshark search (CTRL+F). Tweaked the options to `Packet bytes`, `String` and Non case-sensitive and found few hits. After looking through them I found 3 CTF flags which are as below,
 ```
 CTF{GaLvANiZ4D}
 CTF{sQu1R4}
