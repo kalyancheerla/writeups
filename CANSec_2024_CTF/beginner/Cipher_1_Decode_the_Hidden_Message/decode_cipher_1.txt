@@ -1,0 +1,17 @@
+Plaintext: Plant a tree
+Ciphertext: Ietgm t mkxx
+
+Plaintext: Learn the art
+Ciphertext: Extkg max tkm
+
+Plaintext: Near the planet
+Ciphertext: Gxtk max ietgxm
+
+Plaintext: Alert the team
+Ciphertext: Texkm max mxtf
+
+Plaintext: Rental tent plan
+Ciphertext: Kxgmte mxgm ietg
+
+Ciphertext of Flag: nemktlxvnkxyetzpbmavhfiexqbmr
+
