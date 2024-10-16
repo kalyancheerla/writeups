@@ -1,5 +1,5 @@
 # Crack the Password
-**points :** 25.
+**Points :** 25.
 
 ## Description
 You have access to a remote host and a binary (credentials below). Run the binary (/home/Dora/FlagSafe), which will require a password to reveal the flag. The password is more than 20 characters long and contains special characters. However, you can still get the flag!
