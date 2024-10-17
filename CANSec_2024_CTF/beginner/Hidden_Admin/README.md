@@ -60,5 +60,9 @@ $ printf "YWRtaW5pc2FkbWlub3U" | base64 -d | xxd
 base64: invalid input
 00000000: 6164 6d69 6e69 7361 646d 696e 6f75       adminisadminou
 ```
+
+Note:
+* We can also use `https://www.decompiler.com/` to decompile the apk online as well.
+
 # Flag
 adminisadminou
