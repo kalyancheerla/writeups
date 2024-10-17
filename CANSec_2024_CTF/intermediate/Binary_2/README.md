@@ -63,7 +63,7 @@ Dump of assembler code for function store_flag:
 End of assembler dump.
 ```
 
-We can see from above that store\_flag() function is present and is interesting which actually takes 2 hard-coded byte arrays into rax and rdx, which getting copied into rbp. So, lets set a break point at `*store_flag+55` and run the binary and look for the hard-coded content.
+We can see from above that `store_flag()` function is present and is interesting too, which actually takes 2 hard-coded byte arrays into rax and rdx, which are getting copied into rbp. So, lets set a break point at `*store_flag+55` and run the binary and look for the hard-coded content.
 ```gdb
 (gdb) break *store_flag+55
 Breakpoint 1 at 0x1180
