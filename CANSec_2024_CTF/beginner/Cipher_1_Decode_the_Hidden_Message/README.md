@@ -9,7 +9,6 @@ Here, we can clearly see both the plaintext and ciphertext were given.
 ```
 Plaintext: Plant a tree
 Ciphertext: Ietgm t mkxx
-
 ```
 After looking at it, we can observe that the characters are of equal length, and same letters had same cipher letters and capital letters have capital cipher letters. My first thoughts were then it would be a ROT Cipher (Caesar cipher).
 
