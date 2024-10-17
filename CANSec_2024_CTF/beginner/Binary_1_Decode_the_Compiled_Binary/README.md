@@ -86,6 +86,7 @@ Breakpoint 1, 0x000055555555517d in store_flag ()
 ```
 ## Solution 2:
 By simply throwing this binary inside decompilers would make it even much more easier. Decompiler Explorer (https://dogbolt.org/) actually helps with this.
+
 ![Output from Decompiler Explorer for find\_me](decompiler_explorer_output.png)
 
 # Flag
