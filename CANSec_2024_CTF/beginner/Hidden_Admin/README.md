@@ -8,7 +8,9 @@ Hint: Watch out for misleading fake admin users and encoded credentials. Not eve
 
 ## Writeup
 This is a completely different challenge but most things are same, so I employed using a Java decompiler named jadx for the job.
+
 GitHub: https://github.com/skylot/jadx
+
 Followed the instructions for setting it up,
 ```
 $ curl -LO https://github.com/skylot/jadx/archive/refs/tags/v1.5.0.tar.gz
