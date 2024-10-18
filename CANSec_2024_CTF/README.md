@@ -26,6 +26,7 @@ A list of all challenges from the CANSec 2024 CTF:
 We were able to solve 11/14 challenges, apart from the APK reverse engineering and two Steganography challenges but for which solutions are discussed in here.
 
 **Rank:**  2
+
 **Prize:** Nintendo Switch Lite
 
 ![Screen shot of ranking (gh0st) in CANSec CTF 2024](CANSec_2024_CTF_Scoreboard.png "Look for gh0st team rank")
