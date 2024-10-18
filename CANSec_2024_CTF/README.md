@@ -29,4 +29,5 @@ We were able to solve 11/14 challenges, apart from the APK reverse engineering a
 
 **Prize:** Nintendo Switch Lite
 
+## Scoreboard
 ![Screen shot of ranking (gh0st) in CANSec CTF 2024](CANSec_2024_CTF_Scoreboard.png "Look for gh0st team rank")
