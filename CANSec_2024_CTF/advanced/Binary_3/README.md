@@ -6,7 +6,7 @@ You've been provided with a binary file named `find_me_3`, which is the output o
 
 Note: You can run `./find_me_3 <flag_value>` in order to test if you have gotten the correct flag or not.
 
-## Writeups
+## Writeup
 Here also, we were given with a ELF64 binary which can even test the flag. So, lets use gdb to find any interesting functions and we can see functions like strcmp(), malloc(), free() and puts(). If my guess was right, the data is getting added into heap using malloc, so lets break at strcmp and find the strings that are being compared. And we can immediately find our flag over there.
 ```gdb
 $ gdb ./find_me_3
