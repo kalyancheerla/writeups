@@ -1,6 +1,7 @@
 import sys
 import random
 from PIL import Image
+import hashlib
 
 def extract_randomized_data_from_red_lsb(image_path, seed, output_path):
     # Open the image
@@ -9,7 +10,8 @@ def extract_randomized_data_from_red_lsb(image_path, seed, output_path):
     width, height = image.size
 
     # Set random seed
-    random_gen = random.Random(seed)
+    int_seed = int.from_bytes(hashlib.sha256(seed.encode()).digest(), 'big')
+    random_gen = random.Random(int_seed)
     number_of_pixels = width * height
 
     # Use random gen to get data positions
