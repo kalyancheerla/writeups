@@ -26,5 +26,7 @@ Now, I have used dcode.fr for RSA for the decryption and the result is as below.
 
 ![RSA output](rsa_output.png)
 
+Note: I have also developed my own python script to solve this named `decode_rsa_cipher.py` which you can find in here.
+
 # Flag
 5867962141832073293
